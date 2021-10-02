@@ -47,5 +47,5 @@ jobs:
         with:
           images: 
             williamcrcosta/conversao-temperatura:${{ github.run_number }}
-            manifests:|
-              k8s/deployment.yaml
+          manifests: |
+            k8s/deployment.yml
