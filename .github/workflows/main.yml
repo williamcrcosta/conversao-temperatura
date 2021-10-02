@@ -47,5 +47,5 @@ CD:
         with:
           images: 
             williamcrcosta/conversao-temperatura:${{ github.run_number }}
-            manifests: |
+            manifests:|
               k8s/deployment.yaml
